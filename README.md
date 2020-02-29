@@ -267,7 +267,7 @@ end)
 ```
 
 Every space you plan to shard must have `bucket_id` unsigned field indexed
-by `bucket_id` TREE index. Spaces without `bucket_id` index doesn't
+by `bucket_id` TREE index. Spaces without `bucket_id` index don't
 participate in sharded Tarantool cluster and can be used as a regular
 spaces if needed.
 
